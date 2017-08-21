@@ -1,4 +1,6 @@
-from database import db
+import database
+print dir(database)
+from .database import db
 import datetime
 
 class Ritual(db.Model):
