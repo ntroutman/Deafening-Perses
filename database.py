@@ -16,3 +16,6 @@ def commit():
 
 def drop_all():
     db.drop_all()
+
+def get_all():
+    db.query.all()

@@ -23,5 +23,8 @@ class Ritual(db.Model):
     def __repr__(self):
         return '<User %r>' % self.email
 
-    def save(self, user):
+    def save(self):
         db.session.add(self)
+
+    def get_all(self):
+        db.get_all()
