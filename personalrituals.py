@@ -3,7 +3,6 @@ from flask import Flask, request, session, g, redirect, url_for, \
 
 
 DEBUG = True
-SECRET_KEY = 'r@ch3l'
 
 app = Flask(__name__)
 app.config.from_object(__name__)
